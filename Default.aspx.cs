@@ -30,7 +30,7 @@ public partial class _Default : Page
             ddlStudentNum.Items.Add(ids[x]);
         }
     }
-    protected void btnAdd_Click(object sender, EventArgs e)
+    protected void BtnAdd_Click(object sender, EventArgs e)
     {
         string[] temp = { "'"+tbSNumber.Text+"'", "'" + tbSName.Text + "'",  tbSMark.Text , "'" + tbSPassword.Text + "'" };
         sConn.Open();
@@ -42,7 +42,7 @@ public partial class _Default : Page
         LoadData();
     }
 
-    protected void btnDelete_Click(object sender, EventArgs e)
+    protected void BtnDelete_Click(object sender, EventArgs e)
     {
         sConn.Open();
         SqlCommand dbCMB = sConn.CreateCommand();
@@ -52,7 +52,7 @@ public partial class _Default : Page
         LoadData();
     }
 
-    protected void btnUpdate_Click(object sender, EventArgs e)
+    protected void BtnUpdate_Click(object sender, EventArgs e)
     {
         sConn.Open();
         SqlCommand dbCMB = sConn.CreateCommand();

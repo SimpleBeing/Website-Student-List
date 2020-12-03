@@ -25,8 +25,6 @@
             <p>
                 &nbsp;</p>
             <p>
-                &nbsp;</p>
-            <p>
                 <asp:DropDownList ID="ddlStudentNum" runat="server">
                 </asp:DropDownList>
             </p>
@@ -39,9 +37,9 @@
         </div>
     </div>
     <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center">
-        <asp:Button ID="btnAdd" runat="server" Text="Add" Width="70px" OnClick="btnAdd_Click" />
-        <asp:Button ID="btnUpdate" runat="server" Text="Update" Width="70px" OnClick="btnUpdate_Click" />
-        <asp:Button ID="btnDelete" runat="server" Text="Delete" Width="70px" OnClick="btnDelete_Click" />
+        <asp:Button ID="BtnAdd" runat="server" Text="Add" Width="70px" OnClick="btnAdd_Click" />
+        <asp:Button ID="BtnUpdate" runat="server" Text="Update" Width="70px" OnClick="btnUpdate_Click" />
+        <asp:Button ID="BtnDelete" runat="server" Text="Delete" Width="70px" OnClick="btnDelete_Click" />
     </asp:Panel>
     <asp:Panel ID="Panel2" runat="server" HorizontalAlign="Center">
         <asp:GridView ID="GridView1" runat="server" HorizontalAlign="Center"></asp:GridView>
